@@ -1,0 +1,29 @@
+{
+  "name": "Phong Vũ",
+  "title": "Newbie coder",
+  "location": "Hưng Yên, Việt Nam",
+  "about": "AT?",
+  "skills": [
+    "Binh pháp tôn tử"
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/PhVux.tme",
+    "discord": "https://discord.gg/example"
+  },
+  "contact": {
+    "email": "nguyenvanb@example.com",
+    "website": ""
+  },
+  "experience": [
+    {
+      "role": "Newbie",
+      "company": "",
+      "year": "2025"
+    },
+    {
+      "role": "Dự án cá nhân",
+      "project": "Bio",
+      "year": "2025"
+    }
+  ]
+}

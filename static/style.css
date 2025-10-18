@@ -1,0 +1,47 @@
+:root{
+  --bg:#0f1720;
+  --card:#0b1220;
+  --muted:#9aa4b2;
+  --accent:#6ee7b7;
+  --glass: rgba(255,255,255,0.03);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg, #07111a 0%, var(--bg) 100%);
+  color:#e6eef6;
+  padding:32px;
+}
+.container{max-width:900px;margin:0 auto}
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border:1px solid rgba(255,255,255,0.04);
+  padding:28px;
+  border-radius:14px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+}
+.header{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.header h1{margin:0;font-size:26px}
+.title{color:var(--muted);margin:4px 0}
+.location{color:rgba(255,255,255,0.45);margin:0}
+.avatar{
+  width:64px;height:64px;border-radius:50%;
+  background:linear-gradient(135deg,#123 0%, #045 100%);display:flex;align-items:center;justify-content:center;font-weight:700;
+  color:#fff;font-size:22px;box-shadow:0 6px 18px rgba(0,0,0,0.5)
+}
+section{margin-top:18px}
+.row{display:flex;gap:24px}
+.col{flex:1}
+ul{padding-left:18px;margin:8px 0}
+a{color:var(--accent);text-decoration:none}
+.socials .social-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+.social{
+  display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:var(--glass);border:1px solid rgba(255,255,255,0.03);
+  text-decoration:none;color:inherit;font-weight:600;backdrop-filter: blur(4px)
+}
+.social svg{width:18px;height:18px;fill:currentColor;opacity:0.95}
+
+.social.fb{color:#3b5998}
+.social.dc{color:#5865f2}
